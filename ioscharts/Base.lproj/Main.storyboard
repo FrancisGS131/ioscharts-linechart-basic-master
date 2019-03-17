@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,69 +15,69 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ioscharts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sun-dv-jQM" customClass="LineChartView" customModule="Charts">
-                                <rect key="frame" x="8" y="62" width="398" height="303"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sun-dv-jQM" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="8" y="59" width="359" height="303"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="303" id="WNj-gS-e8G"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="210.0" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08Z-SL-nlB">
-                                <rect key="frame" x="74" y="524" width="267" height="120"/>
+                                <rect key="frame" x="53" y="501" width="268" height="93"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goal: 180" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAM-s0-AaD">
-                                <rect key="frame" x="147" y="640" width="117" height="34"/>
+                                <rect key="frame" x="121" y="602" width="117" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Average: 266" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zws-gj-chb">
-                                <rect key="frame" x="126" y="482" width="163" height="34"/>
+                                <rect key="frame" x="106" y="459" width="163" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zi-CI-zMA">
-                                <rect key="frame" x="94" y="396" width="227" height="42"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="View Previous Month"/>
-                                <connections>
-                                    <action selector="randomize:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R6m-vy-LnN"/>
-                                </connections>
-                            </button>
                             <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXI-N4-Alx">
-                                <rect key="frame" x="20" y="458" width="374" height="252"/>
+                                <rect key="frame" x="16" y="445" width="343" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.17098445595854928" green="0.17098445595854928" blue="0.17098445595854928" alpha="0.18309859154929578" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zi-CI-zMA">
+                                <rect key="frame" x="89" y="385" width="196" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Previous Month"/>
+                                <connections>
+                                    <action selector="randomize:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R6m-vy-LnN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sun-dv-jQM" secondAttribute="trailing" constant="8" id="8r1-ru-Ne4"/>
-                            <constraint firstItem="08Z-SL-nlB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="480" id="Fx7-rI-ZhK"/>
                             <constraint firstItem="Sun-dv-jQM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="GXm-t1-cYT"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="08Z-SL-nlB" secondAttribute="bottom" constant="184" id="JiH-AQ-zdh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sun-dv-jQM" secondAttribute="trailing" constant="8" id="KaI-D8-wJh"/>
-                            <constraint firstItem="4zi-CI-zMA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="74" id="P8u-mt-RGM"/>
-                            <constraint firstItem="4zi-CI-zMA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="352" id="PE8-1f-aSS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="4zi-CI-zMA" secondAttribute="trailing" constant="73" id="U5X-4B-R8G"/>
-                            <constraint firstItem="08Z-SL-nlB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="54" id="VjD-1j-oh9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4zi-CI-zMA" secondAttribute="trailing" constant="74" id="KoP-nx-PQZ"/>
+                            <constraint firstItem="08Z-SL-nlB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="457" id="LVf-0F-cIO"/>
+                            <constraint firstItem="4zi-CI-zMA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="73" id="RZt-C2-Ful"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="08Z-SL-nlB" secondAttribute="trailing" constant="38" id="UJh-If-gHu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sun-dv-jQM" secondAttribute="trailing" constant="8" id="Wjw-KI-Mnm"/>
                             <constraint firstItem="Sun-dv-jQM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="aRp-8i-VxE"/>
                             <constraint firstItem="Sun-dv-jQM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="62" id="bsY-Gi-hNn"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="08Z-SL-nlB" secondAttribute="trailing" constant="53" id="g0V-OR-eEe"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="4zi-CI-zMA" secondAttribute="bottom" constant="424" id="iUV-zi-EMX"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="08Z-SL-nlB" secondAttribute="bottom" constant="218" id="mwL-wG-7eT"/>
+                            <constraint firstItem="4zi-CI-zMA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="341" id="cME-AH-bjE"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="4zi-CI-zMA" secondAttribute="bottom" constant="351" id="fzu-lB-cxP"/>
+                            <constraint firstItem="08Z-SL-nlB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="p3l-qk-JkF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-76.811594202898561" y="133.25892857142856"/>
+            <point key="canvasLocation" x="-77.599999999999994" y="133.00492610837438"/>
         </scene>
     </scenes>
 </document>
